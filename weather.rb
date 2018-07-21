@@ -25,7 +25,7 @@ end
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 def city_weather_info(weather)
   weather.each do |key1, city, key2, description, key3, temperature|
-    puts "The #{key1} is #{city}. The #{description} is #{description}. The temperature is #{temperature_farenheit}."
+    puts "The #{key1} is #{city}. The #{key2} is #{description}. The #{key3} is #{temperature}."
 end
 city_weather_info(
 	:city => "New York",
